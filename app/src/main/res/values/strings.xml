@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Search_Engine</string>
+    <string name="title_activity_complete1">complete1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

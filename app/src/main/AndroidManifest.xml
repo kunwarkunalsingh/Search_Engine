@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.search_engine">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".testthankyou"></activity>
+        <activity android:name=".testthank" />
+        <activity android:name=".healtthank" />
+        <activity android:name=".detailslabtest" />
+        <activity android:name=".testlab" />
+        <activity android:name=".healthproductcart" />
+        <activity android:name=".thankyou" />
+        <activity android:name=".nutrition" />
+        <activity android:name=".resetpass" />
+        <activity android:name=".pharmacy" />
+        <activity android:name=".labtest" />
+        <activity android:name=".payment" />
+        <activity android:name=".cart" />
+        <activity android:name=".producuttype" />
+        <activity android:name=".healthcare" />
+        <activity android:name=".order" />
+        <activity android:name=".loc" />
+        <activity android:name=".locality" />
+        <activity android:name=".search_hospitals" />
+        <activity android:name=".doc" />
+        <activity android:name=".rem" />
+        <activity android:name=".cmd" />
+        <activity android:name=".register" />
+        <activity android:name=".complete" />
+        <activity
+            android:name=".splash"
+            android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>
